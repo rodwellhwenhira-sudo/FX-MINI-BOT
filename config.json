@@ -1,0 +1,9 @@
+{
+  "botName": "FX MINI BOT v2.0.0",
+  "version": "2.0.0",
+  "ownerId": "263776719736",
+  "prefix": "fx!",
+  "supportServerInvite": "https://discord.gg/",
+  "pairingCodeLink": "https://render.com",
+  "deploymentPlatform": "render"
+}
