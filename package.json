@@ -1,29 +1,62 @@
 {
-  "name": "fx-mini-bot",
-  "version": "2.0.0",
-  "description": "FX MINI BOT v2.0.0 - Advanced Discord Bot with 80+ Commands",
+  "name": "mumu-mini-bot",
+  "version": "3.0.0",
+  "description": "MUMU MINI BOT v3.0.0 - Most Powerful WhatsApp Bot with 80+ Commands | Render Deployable | Pairing Code Support",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy.js"
   },
   "keywords": [
-    "discord",
+    "whatsapp",
     "bot",
-    "fx-mini-bot"
+    "mumu-mini-bot",
+    "render",
+    "pairing-code",
+    "automation"
   ],
   "author": "rodwellhwenhira-sudo",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.14.0",
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "axios": "^1.6.0",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0",
+    "lodash": "^4.17.21",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^7.0.0",
+    "winston": "^3.11.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6",
+    "node-fetch": "^2.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "youtube-dl-exec": "^2.4.11",
+    "pdf-parse": "^1.1.1",
+    "natural": "^6.7.0",
+    "sqlite3": "^5.1.6",
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.10",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0",
+    "jimp": "^0.22.10",
+    "fluent-ffmpeg": "^2.1.2",
+    "html-to-text": "^9.0.5",
+    "validator": "^13.11.0",
+    "emoji-parser": "^1.1.0",
+    "weather-js": "^2.0.0",
+    "google-translate-api": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0"
   },
   "engines": {
     "node": "18.x",
