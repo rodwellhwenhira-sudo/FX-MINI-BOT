@@ -1,9 +1,35 @@
 {
-  "botName": "FX MINI BOT v2.0.0",
-  "version": "2.0.0",
+  "botName": "MUMU MINI BOT v3.0.0",
+  "version": "3.0.0",
+  "botType": "WhatsApp",
   "ownerId": "263776719736",
-  "prefix": "fx!",
-  "supportServerInvite": "https://discord.gg/",
-  "pairingCodeLink": "https://render.com",
-  "deploymentPlatform": "render"
+  "ownerNumber": "263776719736",
+  "prefix": "/",
+  "alternatePrefixes": ["!", ".", "$", "#"],
+  "supportServerInvite": "https://chat.whatsapp.com/",
+  "pairingCodeLink": "https://render.com/deploy",
+  "deploymentPlatform": "render",
+  "renderDeployUrl": "https://render.com",
+  "maxCommandsPerMinute": 10,
+  "maxFileSize": 52428800,
+  "features": {
+    "autoReply": true,
+    "aiIntegration": true,
+    "mediaHandling": true,
+    "groupManagement": true,
+    "userStats": true,
+    "scheduling": true,
+    "webhooks": true,
+    "database": true,
+    "caching": true,
+    "logging": true
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "./database/mumu.db"
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/mumu.log"
+  }
 }
